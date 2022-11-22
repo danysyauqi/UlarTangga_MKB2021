@@ -16,9 +16,9 @@
                </items></Menu>
           <Menu mnemonicParsing="false" text="V.S BOT">
             <items>
-              <MenuItem mnemonicParsing="false" text="Easy" />
-                  <MenuItem mnemonicParsing="false" text="Medium" />
-                  <MenuItem mnemonicParsing="false" text="Hard" />
+              <MenuItem fx:id="easyButton" mnemonicParsing="false" onAction="#switchToEasy" text="Easy" />
+                  <MenuItem fx:id="mediumButton" mnemonicParsing="false" onAction="#switchToMedium" text="Medium" />
+                  <MenuItem fx:id="hardButton" mnemonicParsing="false" onAction="#switchToHard" text="Hard" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="View">
@@ -32,8 +32,8 @@
             </Menu>
           <Menu mnemonicParsing="false" text="About">
             <items>
-              <MenuItem mnemonicParsing="false" text="Help" />
-                  <MenuItem mnemonicParsing="false" text="Author" />
+              <MenuItem fx:id="helpButton" mnemonicParsing="false" onAction="#switchToHelp" text="Help" />
+                  <MenuItem fx:id="authorButton" mnemonicParsing="false" onAction="#switchToAuthor" text="Author" />
             </items>
           </Menu>
         </menus>

@@ -14,10 +14,11 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
-
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
+        stage.setTitle("Snakes And Ladder MKB 2021");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
